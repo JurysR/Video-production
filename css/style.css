@@ -31,14 +31,19 @@ body{
 
 nav ul li a{
     color: white;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 400;
     text-transform: uppercase;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
 a.menu:hover{
-    background: #2F2281;
-    transition: .5s;
+    background: yellow;
+    transition: 0.5s;
+    
 }
 
 .container{ 
@@ -57,7 +62,11 @@ img.logo{
     height: 120px;
     line-height: 80px;
     filter: invert(85%);
+    /*background-color: transparent;*/
+    position: fixed;
+    opacity: 60%;
 }
+
 #Home{
     width: 100%;
     position: relative;

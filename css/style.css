@@ -7,18 +7,13 @@
 }
 
 body{
-    font-family: montserrat;
+    font-family: sans-serif;
 }
 
 nav{
     background-color: navy;
     height: 120px;
     width: 100%;
-}
-
-.logo{
-    line-height: 80px;
-    padding: 0 100px;
 }
 
 nav ul{
@@ -39,7 +34,24 @@ nav ul li a{
 }
 
 
-a.active:hover{
+a.menu:hover{
     background: #1b9bff;
     transition: .5s;
+}
+
+.container{ 
+    position: relative; 
+    width: 960px; 
+    margin: 0 auto; 
+    padding: 0; 
+}
+
+.container .columns{ 
+    width: 940px; 
+}
+
+img.logo{
+    width: 140px;
+    height: 120px;
+    line-height: 80px;
 }

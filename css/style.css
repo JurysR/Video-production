@@ -41,7 +41,7 @@ nav ul li a{
 
 
 a.menu:hover{
-    background: yellow;
+    background: #C1BC28;
     transition: 0.5s;
     
 }

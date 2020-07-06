@@ -186,3 +186,12 @@ h1 {
     top: -5px;
 }
 
+#kontakt {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    background: black;
+    top: -5px;
+}

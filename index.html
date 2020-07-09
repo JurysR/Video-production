@@ -119,8 +119,47 @@
                     <div class="subtext-top">Nezávazná poptávka</div>
                 </div>
             </div>
-            <img class="form" src="img/kontakt-form.png" alt="form">
+            <!-- <img class="form" src="img/kontakt-form.png" alt="form"> -->    
         </div>
+        <!-- Formular -->
+        <form>
+            <div class="container">
+                <label for="fname">Jméno</label>
+                <input type="text" name="fname" id="fname">
+
+                <label for="lname">Příjmení</label>
+                <input type="text" name="lname" id="lname">
+
+                <label for="address">Adresa</label>
+                <input type="text" name="address" id="address">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="Poptávka_na">Poptávka na</label>
+                <select name="Poptávka_na" id="Poptávka_na">
+                    <option value=""></option>
+                    <option value="reklama">Reklama</option>
+                    <option value="video_klip">Video Klip</option>
+                    <option value="renderování">Renderování</option>  
+                    <option value="logo">Logo</option>  
+                    <option value="film">Film</option>
+                </select>
+
+                <label for="rozpocet">Rozpočet</label>
+                <select name="rozpocet" id="rozpocet">
+                    <option value=""></option>
+                    <option value="do_10k">Do 10 000 Kč</option>
+                    <option value="do_25k">Do 25 000 Kč</option>
+                    <option value="do_50k">Do 50 000 Kč</option>  
+                    <option value="do_100k">Do 100 000 Kč</option>  
+                </select>
+
+                <p>
+                     <input type="submit" class="button" value="Odeslát">
+                </p>
+            </div>
+        </form>
     </div>
     <!-- FOOTER -->
     <div id="footer"></div>

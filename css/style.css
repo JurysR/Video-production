@@ -186,6 +186,16 @@ h1 {
     top: -5px;
 }
 
+.photograph {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    overflow: hidden;
+    display: block;
+    filter: grayscale(100%);
+    max-width:960px;
+}
+
 #kontakt {
     position: relative;
     margin: 0 auto;
@@ -196,20 +206,35 @@ h1 {
     top: -5px;
 }
 
-.form {
+/*.form {
     position: relative;
     margin: 0 auto;
     width: auto;
     overflow: hidden;
     display: block;
+}*/
+
+label {
+    display: block;
+    margin-top: 1em;
+    margin: 0 1em;
+    width: 95%;
+    width: 100%;
 }
 
-.photograph {
-    position: relative;
-    margin: 0 auto;
+form {
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
     width: auto;
     overflow: hidden;
     display: block;
-    filter: grayscale(100%);
     max-width:960px;
+    background-color: grey;
+    height: 600px;
+}
+
+input, select {
+    margin: 1em;
+    width: 95%;
 }

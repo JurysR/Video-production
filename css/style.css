@@ -8,6 +8,7 @@
 
 body{
     font-family: sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,11 +48,9 @@ nav ul li a{
     padding: 10px;
 }
 
-
 a.menu:hover{
     background: #C1BC28;
     transition: 0.5s;
-    
 }
 
 .container{ 
@@ -260,4 +259,27 @@ input, select, textarea {
     color: black;
     text-align: center;
     margin-bottom: 1em
+}
+
+#footer {
+    text-align: center;
+    margin: 10px 20px;
+    padding-top: 20px;
+    border-top: #9b9b9b solid 1px;
+
+}
+/*footer social icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #9b9b9b;
+  border: solid 1px;
+  display: inline-table;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }

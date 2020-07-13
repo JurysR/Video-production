@@ -229,12 +229,13 @@ label {
     display: block;
     margin: 1em;
     width: -moz-available;
+    padding-left: 10px;
 }
 
 input, select {
     margin: 0 1em;
     width: -moz-available;
-    height: 2.5em;
+    height: 2em;
 }
 
 textarea{
@@ -249,6 +250,9 @@ input, select, textarea {
     font-family: 'Pathway Gothic One','BenchNine';
     text-align: left;
     font-size: 18px;
+    border-radius: 20px;
+    border: solid white;
+    padding-left: 10px;
 }
 
 .full-width {

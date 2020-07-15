@@ -18,7 +18,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
 }
 
+.container{ 
+    position: relative; 
+    width: 960px; 
+    margin: 0 auto; 
+    padding: 0; 
+}
 
+.container .columns{ 
+    width: 940px; 
+}
+/*Navigacni menu*/
 #menu{
     height: 120px;
     width: 100%;
@@ -49,20 +59,11 @@ nav ul li a{
 }
 
 a.menu:hover{
-    background: #C1BC28;
+    color: #000;
+    background: #979797;
     transition: 0.5s;
 }
 
-.container{ 
-    position: relative; 
-    width: 960px; 
-    margin: 0 auto; 
-    padding: 0; 
-}
-
-.container .columns{ 
-    width: 940px; 
-}
 
 img.logo{
     width: 140px;
@@ -74,6 +75,7 @@ img.logo{
     opacity: 60%;
 }
 
+/*Intro*/
 #intro{
     width: 100%;
     position: relative;
@@ -89,6 +91,38 @@ img.logo{
     min-height: 100%;
 }
 
+.intro-title {
+    margin: 0 auto;
+    width: 100%;
+    z-index:2;
+    padding-top:100px;
+    padding-bottom:100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro-title .subtext-intro {
+    position: relative;
+    width:100%;
+    padding-top:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    text-align:center;
+    font-size: 16px; 
+    line-height:16px;
+    color:#aaa;
+    z-index:100;
+}
+
+.button-intro {
+
+}
+
+/*Nadpis a podnadpis*/
 h1 {
     font-size: 50px;
     line-height: 50px;
@@ -118,6 +152,8 @@ h1 {
     color:#aaa;
     z-index:100;
 }
+
+/*Portfolio*/
 
 #portfolio {
     position: relative;
@@ -176,6 +212,7 @@ h1 {
     opacity: 1;
 }
 
+/*O Nas*/
 #o_nas {
     position: relative;
     margin: 0 auto;
@@ -196,6 +233,7 @@ h1 {
     max-width:960px;
 }
 
+/*Kontakt*/
 #kontakt {
     position: relative;
     margin: 0 auto;
@@ -251,7 +289,8 @@ input, select, textarea {
     text-align: left;
     font-size: 18px;
     border-radius: 20px;
-    border: solid white;
+    border: solid #9b9b9b;
+    background-color: #9b9b9b;
     padding-left: 10px;
 }
 
@@ -265,6 +304,7 @@ input, select, textarea {
     margin-bottom: 1em
 }
 
+/*Footer*/
 #footer {
     text-align: center;
     margin: 10px 20px;
@@ -272,7 +312,14 @@ input, select, textarea {
     border-top: #9b9b9b solid 1px;
 
 }
-/*footer social icons*/
+
+#footer p {
+    font-size: 24px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+
+/*Footer social icons*/
 .fa {
   padding: 20px;
   font-size: 30px;

@@ -6,6 +6,26 @@
     box-sizing: border-box;
 }
 
+/*firefox scrollbar*/
+html {
+    scrollbar-color: ;
+}
+
+/*chrome atd scrollbar*/
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color: black;
+}
+ 
+/* body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} */
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+/*  outline: 1px solid slategrey;*/
+}
+
 body{
     font-family: sans-serif;
     background-color: black;
@@ -212,6 +232,39 @@ h1 {
     opacity: 1;
 }
 
+.portfolio-tab {
+    position: relative;
+    display: none;
+    margin-bottom: 25px;
+}
+
+#imgtitle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #9b9b9b;
+    font-size: 30px;
+    padding: 0 5%;
+}
+
+#imgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #9b9b9b;
+    font-size: 20px;
+    padding: 0 5%;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
 /*O Nas*/
 #o_nas {
     position: relative;
@@ -267,12 +320,14 @@ label {
     display: block;
     margin: 1em;
     width: -moz-available;
+    width: -webkit-fill-available;
     padding-left: 10px;
 }
 
 input, select {
     margin: 0 1em;
     width: -moz-available;
+    width: -webkit-fill-available;
     height: 2em;
 }
 
@@ -280,6 +335,7 @@ textarea{
     margin: 1em;
     margin-top: 0px;
     width: -moz-available;
+    width: -webkit-fill-available;
 }
 
 

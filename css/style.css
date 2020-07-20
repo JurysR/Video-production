@@ -139,7 +139,13 @@ img.logo{
 }
 
 .button-intro {
-    
+    border: solid black 1px;
+    background-color: #bfbfbf;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #3026aa;
 }
 
 .fa.intro {

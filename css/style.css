@@ -402,4 +402,7 @@ input, select, textarea {
     opacity: 0.7;
 }
 
-
+.menu.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}

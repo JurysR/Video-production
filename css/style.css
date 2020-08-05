@@ -403,6 +403,11 @@ input, select, textarea {
 }
 
 .menu.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+  background-color: #9b9b9b ;
+  transition: background-color 200ms linear
+  ;
 }
+/*
+.nav-colored { background-color:yellow;}
+
+.nav-transparent { background-color:;}*/

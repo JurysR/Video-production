@@ -2,8 +2,11 @@
 $(function () {
     $(document).scroll(function () {
     var $nav = $(".menu");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $("#intro").height());
+    var $logo = $(".logo");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $logo.toggleClass('scrolled', $(this).scrollTop() > $nav.height()); 
     });
 });
 
-// $nav.height())
+// $nav.height()) 
+// $("#intro").height())

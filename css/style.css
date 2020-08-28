@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120px;
     width: 100%;
     line-height: 120px;
+    font-size: 20px;
     position: fixed;
     background-color: transparent;
     z-index: 500;
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav ul li a{
     color: white;
-    font-size: 20px;
+    font-size: inherit;
     font-weight: 400;
     text-transform: uppercase;
     width: auto;
@@ -83,6 +84,19 @@ nav ul li a{
     transition: 0.5s;
 }
 
+
+.menu.scrolled {
+    background-color: #616161 ;
+    transition: background-color 200ms linear;
+    line-height: 80px;
+    height: 80px;
+    font-size: 16px;
+}
+
+.logo.scrolled {
+    width: 80px;
+    height: 80px;
+}
 
 img.logo{
     width: 120px;
@@ -397,16 +411,4 @@ input, select, textarea {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.menu.scrolled {
-    background-color: #616161 ;
-    transition: background-color 200ms linear;
-    line-height: 80px;
-    height: 80px;
-}
-
-.logo.scrolled {
-    width: 80px;
-    height: 80px;
 }

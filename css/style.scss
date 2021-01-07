@@ -1,0 +1,89 @@
+$font-stack:    Pathway Gothic One, BenchNine;
+$primary-color: #616161;
+$secondary-color: #fff;
+$primary-bg-color: #000;
+$secondary-bg-color: #616161;
+$primary-font-size: 20px;
+$secondary-font-size: 16px;
+$primary-padding: 0;
+$primary-margin: 0;
+$size: 120px;
+$scrolled-size: 80px;
+
+
+body {
+    padding: $primary-padding;
+    margin: $primary-margin;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: $primary-bg-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+    font-family: $font-stack;
+    text-align: center;
+    font-size: $primary-font-size;
+}
+
+ul li a {
+    color: $secondary-color;
+    font-size: $primary-font-size;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container { 
+    position: relative; 
+    width: 960px; 
+    margin: $primary-margin auto; 
+    padding: $primary-padding; 
+}
+
+.menu {
+    height: $size;
+    width: 100%;
+    line-height: 120px;
+    font-size: primary-font-size;
+    position: fixed;
+    background-color: transparent;
+    z-index: 500;
+
+    ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    ul {
+        float: right;            
+    }
+
+    a:hover {
+    color: #000;
+    background: $secondary-bg-color;
+    transition: 0.5s;
+    }
+
+    .scrolled {
+        background-color: $secondary-bg-color;
+        transition: background-color 200ms linear;
+        line-height: $scrolled-size;
+        height: $scrolled-size;
+        font-size: $secondary-font-size;
+    }
+}
+
+.logo{
+    width: $size;
+    height: $size;
+    filter: invert(85%);
+    /*background-color: transparent;*/
+    position: fixed;
+
+    .scrolled {
+        width: $scrolled-size;
+        height: $scrolled-size;
+    }
+}

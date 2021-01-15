@@ -212,11 +212,15 @@
                         <input type="email" name="email" id="email">
                     </p>
                     <p class="half-width">
-                        <label for="number">
+                        <label for="tel">
                             <span>Telefon: </span>
                             <strong><abbr title="required">*</abbr></strong >
                         </label>
-                        <input type="number" name="number" id="number">
+                        <input type="tel1" name="tel" id="tel" pattern="[0-9]{3}" size="2" onkeyup="this.value=this.value.replace(/^(\d{3})(?=\d)/,'$1 '")/> 
+                        <input type="tel2" name="tel" id="tel" pattern="[0-9]{3}" size="2"/> 
+                        <input type="tel3" name="tel" id="tel" pattern="[0-9]{3}" size="3"/>
+
+
                     </p>
                     <p class="half-width">
                         <label for="Poptávka_na">

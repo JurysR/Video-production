@@ -1,0 +1,31 @@
+* {
+
+}
+
+body{
+    font-family: Consolas, Arial;
+    background-color: #000 ;
+    color:#fff;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1{
+    font-size:;
+}
+
+.menu{
+
+}
+
+.uvod{
+    width: 33%;
+}
+
+.intro-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -10,21 +10,31 @@ body{
     font-family: Consolas, Arial;
     background-color: #000 ;
     color:#fff;
-    width: 960px;
-    margin: 0 auto;
-    padding: 0;
 }
 
-h1, h2{
+h1{
     font-size:50px;
     text-transform: uppercase;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.container{ 
+    position: relative; 
+    width: 1080px; 
+    margin: 0 auto; 
+    padding: 0; 
 }
 
 /*Navigacni menu*/
 
 .menu{
     height: 120px;
-    width: inherit;
+    width: 100%;
     line-height: 120px;
     font-size: 20px;
     position: fixed;
@@ -72,23 +82,25 @@ nav ul li a{
 }
 
 img.logo{
-/*    width: 120px;
-    height: 120px;
-    filter: invert(85%);
-    /*background-color: transparent;*/
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    /*filter: invert(85%);
+    background-color: transparent;*/
     position: fixed;
 }
 
 
 /*Intro*/
 #intro{
-    width: 100%;
+    /*width: 100%;*/
     position: relative;
     margin: 0 auto;
 }
 
 .intro-img{
-    width: 33%;
+    height: 740px;
+    margin: 0 0 50px -80px;
 }
 
 .intro-title {
@@ -119,10 +131,27 @@ img.logo{
     width: 100%;
     overflow: hidden;
     z-index: 2;
-    background: black;
-    top: -5px;
+    text-align: center;
+    top: -100px;
+    font-size: 20px
 }
 
-.photograph {
-    padding: 45px;
+.section-top .subtext-top {
+    position: relative;
+    width:100%;
+    padding-top:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    text-align:center;
+    font-size: 16px; 
+    line-height:16px;
+    color:#aaa;
+    z-index:100;
+}
+
+.logo3 {
+    scale: 0.2;
+    margin-top: -40px;
 }

@@ -1,5 +1,9 @@
 * {
-
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,15 +15,79 @@ body{
     padding: 0;
 }
 
-h1{
-    font-size:;
+h1, h2{
+    font-size:50px;
+    text-transform: uppercase;
 }
+
+/*Navigacni menu*/
 
 .menu{
-
+    height: 120px;
+    width: inherit;
+    line-height: 120px;
+    font-size: 20px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 500;
 }
 
-.uvod{
+.menu ul {
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: inherit;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    color: #000;
+    background: #616161;
+    transition: 0.5s;
+}
+
+
+.menu.scrolled {
+    background-color: #616161 ;
+    transition: background-color 200ms linear;
+    line-height: 80px;
+    height: 80px;
+    font-size: 16px;
+}
+
+.logo.scrolled {
+    width: 80px;
+    height: 80px;
+}
+
+img.logo{
+/*    width: 120px;
+    height: 120px;
+    filter: invert(85%);
+    /*background-color: transparent;*/
+    position: fixed;
+}
+
+
+/*Intro*/
+#intro{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.intro-img{
     width: 33%;
 }
 
@@ -28,4 +96,33 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.intro-subtext {
+    position: relative;
+    width:100%;
+    padding-top:20px;
+    font-weight:700;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    text-align:center;
+    font-size: 18px; 
+    line-height:16px;
+    /*color:#aaa;*/
+    z-index:100;
+}
+
+/*O Nas*/
+#o_nas {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    background: black;
+    top: -5px;
+}
+
+.photograph {
+    padding: 45px;
 }

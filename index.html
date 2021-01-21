@@ -59,59 +59,35 @@
     <div id="kontakt">
         <div class="container">
                 <div class="section-top">   
-                    <h1>Mám zájem o video</h1>
+                    <h2>Kontaktní informace</h2>
                 <div class="subtext-top">Nezávazná poptávka</div>
                 <div class="subtext-top">Tel. číslo<br>+420 XXX XXX XXX</div>
-                <div class="subtext-top">E-MAIL<br>INFO@KdoVi.Kam</div>
+                <div class="subtext-top">E-MAIL<br>INFO@CREATURES.COM</div>
+                <p>Povinná pole <strong><abbr title="required">*</abbr></strong>.</p>
             </div>
             <!-- <img class="form" src="img/kontakt-form.png" alt="form"> -->    
         </div>
         <!-- Formular -->
         <div class="container">
             <form method="post">
-                <h3>Mám zájem o video</h3>
-                <p>Nezávazná poptávka</p>
-                <p>Tel. číslo<br>+420 XXX XXX XXX</p>
-                <p>E-MAIL<br>INFO@KdoVi.Kam</p>
-                <section>
-                    <h3>Kontaktní informace</h3>
-                    <!-- <h3>Contact information</h3>  -->
-                    <p>Povinná pole <strong><abbr title="required">*</abbr></strong>.</p>
+                <section class="left-column">
                     <!-- <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p> -->
 
-                    <p class="half-width">
+                    <p>
                         <label for="fname">
                             <span>Jméno a Příjmení: </span>
                             <strong><abbr title="required">*</abbr></strong>
                         </label>
                         <input type="text" name="fname" id="fname">
                     </p>
-                    <p class="half-width">
-                        <label for="company">
-                            <span>Název Firmy: </span>
-                            <strong><abbr title="required">*</abbr></strong >
-                        </label>
-                        <input type="text" name="company" id="company">
-                    </p>
-                    <p class="half-width">
+                    <p>
                         <label for="email">
                             <span>Email: </span>
                             <strong><abbr title="required">*</abbr></strong >
                         </label>
                         <input type="email" name="email" id="email">
                     </p>
-                    <p class="half-width">
-                        <label for="tel">
-                            <span>Telefon: </span>
-                            <strong><abbr title="required">*</abbr></strong >
-                        </label>
-                        <input type="tel1" name="tel" id="tel" pattern="[0-9]{3}" size="2" onkeyup="this.value=this.value.replace(/^(\d{3})(?=\d)/,'$1 '")/> 
-                        <input type="tel2" name="tel" id="tel" pattern="[0-9]{3}" size="2"/> 
-                        <input type="tel3" name="tel" id="tel" pattern="[0-9]{3}" size="3"/>
-
-
-                    </p>
-                    <p class="half-width">
+                    <p>
                         <label for="Poptávka_na">
                             <span>Poptávka na: </span>
                             <strong><abbr title="required">*</abbr></strong >
@@ -125,7 +101,25 @@
                             <option value="film">Film</option>
                         </select>
                     </p>
-                    <p class="half-width">
+                </section>
+                <section class="right-column">
+                    <p>
+                        <label for="company">
+                            <span>Název Firmy: </span>
+                            <strong><abbr title="required">*</abbr></strong >
+                        </label>
+                        <input type="text" name="company" id="company">
+                    </p>
+
+                    <p>
+                        <label for="tel">
+                            <span>Telefon: </span>
+                            <strong><abbr title="required">*</abbr></strong >
+                        </label>
+                        <input type="tel1" name="tel" id="tel" pattern="[0-9]{3}" size="2" onkeyup="this.value=this.value.replace(/^(\d{3})(?=\d)/,'$1 '")/>
+                    </p>
+
+                    <p>
                         <label for="rozpocet">
                             <span>Rozpočet: </span>
                             <strong><abbr title="required">*</abbr></strong >
@@ -135,12 +129,15 @@
                             <option value="do_10k">Do 10 000 Kč</option>
                             <option value="do_25k">Do 25 000 Kč</option>
                             <option value="do_50k">Do 50 000 Kč</option>  
-                            <option value="do_100k">Do 100 000 Kč</option>  
+                            <option value="do_100k">Do 100 000 Kč</option>
                         </select>
                     </p>
+
                 </section>
-                <section>
-                    <p class="full-width">
+
+
+                <section class="full-width">
+                    <p>
                         <label for="">
                             <span>Zpráva: </span>
                             <strong><abbr title="required">*</abbr></strong >

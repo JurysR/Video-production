@@ -101,6 +101,7 @@ img.logo{
 .intro-img{
     height: 740px;
     margin: 0 0 50px -80px;
+    width: auto;
 }
 
 .intro-title {
@@ -156,14 +157,13 @@ img.logo{
 }
 
 #instafeed-container {
-    padding-bottom: 0px;
-    padding-top: 15px;
-    background: aliceblue;
+    padding: 10px;   
+    background: #E9ECEF;
 }
 
 img {
-    width: 33%;
-    padding: 15px;
+    width: 33.334%;
+    padding: 20px;
 }
 
 #kontakt {

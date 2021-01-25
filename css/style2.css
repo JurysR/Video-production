@@ -156,14 +156,14 @@ img.logo{
 }
 
 #instafeed-container {
-    flex-direction: column;
     padding-bottom: 0px;
-    padding-top: 0px;
-    display: flex;
+    padding-top: 15px;
+    background: aliceblue;
 }
 
 img {
-
+    width: 33%;
+    padding: 15px;
 }
 
 #kontakt {
@@ -207,7 +207,7 @@ input, select, textarea {
     font-size: 18px;
     border-radius: 4px;
     border: solid #fff;
-    background-color: #fff;
+    background-color: aliceblue;
     /*padding-left: 10px;*/
 }
 

@@ -23,6 +23,11 @@ h2{
     text-transform: uppercase;
 }
 
+img {
+    width: 33.334%;
+    padding: 20px;
+}
+
 .container{ 
     position: relative; 
     width: 1080px; 
@@ -88,6 +93,7 @@ img.logo{
     /*filter: invert(85%);
     background-color: transparent;*/
     position: fixed;
+    padding: 0;
 }
 
 
@@ -102,6 +108,7 @@ img.logo{
     height: 740px;
     margin: 0 0 50px -80px;
     width: auto;
+    padding: 0;
 }
 
 .intro-title {
@@ -161,10 +168,6 @@ img.logo{
     background: #E9ECEF;
 }
 
-img {
-    width: 33.334%;
-    padding: 20px;
-}
 
 #kontakt {
     position: relative;
